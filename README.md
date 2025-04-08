@@ -35,7 +35,7 @@ This repository hosts XSS payloads via GitHub Pages. It is useful for security r
 
 - Hosts external XSS scripts via GitHub Pages
 - Bypasses CSP in some cases (depending on target site)
-- Works with `<script src>`, `<iframe>`, and `<img>`-based injection
+- Works with `<a>`,`<script src>`, `<iframe>`, and `<img>`-based injection
 - Easy to use for PoC (Proof-of-Concept)
 
 ---
