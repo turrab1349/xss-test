@@ -16,7 +16,7 @@ Absolutely! Here's a clean, well-formatted `README.md` section for **"How to Use
 ---
 
 
-## 🚀 How I Use It
+## How I Use It
 
 Use this GitHub Pages setup to host my XSS payloads for testing real-world vulnerabilities during bug bounty hunting.
 
@@ -46,5 +46,5 @@ When I find a vulnerable parameter or input field that allows HTML/JS injection,
 This method is useful on targets where CSP policies restrict inline scripts, but allow loading scripts or frames from external sources. It’s also handy for stored XSS and phishing-style payloads.
 
 > ⚠️ Use only for ethical hacking and responsible disclosure.
-```
+
 
