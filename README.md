@@ -13,6 +13,7 @@ This repository hosts XSS payloads via GitHub Pages. It is useful for security r
 
 ##  How to Use
 
+Use This URL for XSS ---> ![https://yogsec.github.io/xss-test/](https://yogsec.github.io/xss-test/)
 
 Use this GitHub Pages setup to host my XSS payloads for testing real-world vulnerabilities during bug bounty hunting. When I find a vulnerable parameter or input field that allows HTML/JS injection, I inject a <script src> or <iframe> pointing to my hosted payload like
 
