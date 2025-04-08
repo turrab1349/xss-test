@@ -1,4 +1,4 @@
-# XSS Payload Host (GitHub Pages)
+# XSS Payload Host
 
 This repository hosts XSS payloads via GitHub Pages. It is useful for security researchers, bug bounty hunters, or penetration testers to demonstrate and execute Cross-Site Scripting (XSS) payloads on vulnerable websites.
 <br>
