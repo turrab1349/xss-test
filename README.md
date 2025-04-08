@@ -27,6 +27,8 @@ This repository hosts XSS payloads via GitHub Pages. It is useful for security r
 </div>
 <br>
 ![Page](https://github.com/yogsec/xss-test/blob/main/Screenshot%20from%202025-04-09%2002-47-52.png?raw=true)
+<br>
+
 ## Features
 
 - Hosts external XSS scripts via GitHub Pages
